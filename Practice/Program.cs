@@ -4,8 +4,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var checker = new EvenOddChecker();
+        var numberPrint = new NumberPrinter();
 
-        checker.Run();
+        numberPrint.PrintNumbers();   
+
+        // var checker = new EvenOddChecker();
+
+        // checker.Run();
     }
 }
