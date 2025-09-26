@@ -7,7 +7,7 @@ class CountingEvenOdd
 
         int oddCount = 0;
 
-        for (int i = 1; i <= 100; i++)
+        for (int i = 1; i <=100; i++)
         {
             if (i % 2 == 0)
             {

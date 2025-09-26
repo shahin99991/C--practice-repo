@@ -4,9 +4,19 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var numberPrint = new NumberPrinter();
+        var Multiplication = new MultiplicationTabel();
 
-        numberPrint.PrintNumbers();   
+        Multiplication.MultiplicationTable();
+
+
+
+        // var countEvenOdd = new CountingEvenOdd();
+
+        // countEvenOdd.CountNumber();
+
+        // var numberPrint = new NumberPrinter();
+
+        // numberPrint.PrintNumbers();   
 
         // var checker = new EvenOddChecker();
 
