@@ -4,10 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var SumOfNumbers = new SumOfTheNumbers();
+        var elementInTheList = new NameManegementList();
 
-        SumOfNumbers.CalculateSume();
-        
+        elementInTheList.RunListExample();
+        // var SumOfNumbers = new SumOfTheNumbers();
+
+        // SumOfNumbers.CalculateSume();
+
         // var Multiplication = new MultiplicationTabel();
 
         // Multiplication.MultiplicationTable();

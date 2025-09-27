@@ -12,7 +12,7 @@ class SumOfTheNumbers
         {
             sum += numbers[i];
         }
-        Console.WriteLine($"Length{numbers.Length}");
+        Console.WriteLine($"Number of element in the arry: {numbers.Length}");
         Console.WriteLine($"Sum Of The Numbers: {sum}");
     }
 }
