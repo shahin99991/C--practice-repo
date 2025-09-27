@@ -4,9 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var stack = new StackPractice();
+        var queuePractice = new QueuePractice();
 
-        stack.RunStackExample();
+        queuePractice.RunQueueExample();
+
+        // var stack = new StackPractice();
+
+        // stack.RunStackExample();
 
         // var elementInTheList = new NameManegementList();
 
