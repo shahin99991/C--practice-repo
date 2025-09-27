@@ -4,9 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var elementInTheList = new NameManegementList();
+        var stack = new StackPractice();
 
-        elementInTheList.RunListExample();
+        stack.RunStackExample();
+
+        // var elementInTheList = new NameManegementList();
+
+        // elementInTheList.RunListExample();
         // var SumOfNumbers = new SumOfTheNumbers();
 
         // SumOfNumbers.CalculateSume();
