@@ -4,9 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var Multiplication = new MultiplicationTabel();
+        var SumOfNumbers = new SumOfTheNumbers();
 
-        Multiplication.MultiplicationTable();
+        SumOfNumbers.CalculateSume();
+        
+        // var Multiplication = new MultiplicationTabel();
+
+        // Multiplication.MultiplicationTable();
 
 
 
