@@ -6,7 +6,7 @@ class StackPractice
     {
         Console.WriteLine("---- Stucking practice (LIFO: Last in, frist out) ----");
 
-        Stack<string> history = new Stack<string>();
+        var history = new Stack<string>();
 
         Console.WriteLine("Add navigation history");
         history.Push("home pase");
