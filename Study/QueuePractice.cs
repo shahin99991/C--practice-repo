@@ -6,7 +6,7 @@ class QueuePractice
     {
         Console.WriteLine("\nPractice Queue (FIFO: frist in, last out)");
 
-        Queue<string> supportQueue = new Queue<string>();
+        var supportQueue = new Queue<string>();
 
         Console.WriteLine("Add a query to the queue:");
         supportQueue.Enqueue("Customer A");
