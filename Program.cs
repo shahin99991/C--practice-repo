@@ -4,9 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var queuePractice = new QueuePractice();
+        var HashPractice = new HashPractice();
 
-        queuePractice.RunQueueExample();
+        HashPractice.Run();
+
+        // var queuePractice = new QueuePractice();
+
+        // queuePractice.RunQueueExample();
 
         // var stack = new StackPractice();
 
