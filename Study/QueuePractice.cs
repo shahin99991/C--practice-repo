@@ -20,6 +20,6 @@ class QueuePractice
         Console.WriteLine($"Dequeue: Completed the response to{supportQueue.Dequeue()}");
 
         Console.WriteLine($"Current queue length after response: {supportQueue.Count}");
-        
+
     }
 }
