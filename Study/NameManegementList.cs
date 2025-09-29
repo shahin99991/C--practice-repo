@@ -4,7 +4,7 @@ class NameManegementList
 {
     public void RunListExample()
     {
-        List<string> names = new List<string>();
+        var names = new List<string>();
 
         names.Add("Tanaka");
         names.Add("Satou");
