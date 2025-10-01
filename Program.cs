@@ -1,12 +1,17 @@
 ﻿using Practice.Study;
-
+using Practice.LeetCode;
 public class Program
 {
     public static void Main(string[] args)
     {
-        var HashPractice = new HashPractice();
 
-        HashPractice.Run();
+        var HashMapSerch = new CountingExam();
+
+        HashMapSerch.HashMapSerch();
+
+        // var HashPractice = new HashPractice();
+
+        // HashPractice.Run();
 
         // var queuePractice = new QueuePractice();
 
